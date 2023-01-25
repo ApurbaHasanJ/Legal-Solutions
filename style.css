@@ -1,0 +1,52 @@
+/* Fonts */
+.ls-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.ls-eb-garamond{
+    font-family: 'EB Garamond', serif;
+}
+
+/* Header Section */
+
+
+
+
+/* Buttons */
+.ls-bg-primary-btn{
+    color: #FFFFFF;
+    background-color: #B68C5A;
+
+}
+
+.ls-bg-primary-btn:hover{
+    color: #FFFFFF;
+    background-color: #cf954d;
+}
+
+
+.ls-banner-header{
+    font-size: 5rem;
+}
+
+
+/* Carousel Btn */
+.ls-carousel-btn{
+    background-color: red;
+}
+
+
+/* Media Query */
+@media screen and (max-width:576px) {
+    .banner-items{
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .ls-banner-header{
+     font-size: 1rem;
+    }
+    
+}
+
